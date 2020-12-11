@@ -1,0 +1,24 @@
+@import "./components/Row.scss";
+@import "./components/Banner.scss";
+@import "./components/Nav.scss";
+
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 890px) {
+  .banner__contents__description {
+    width: 15rem;
+  }
+  .row__posters__image{
+    width: 95%;
+  }
+}

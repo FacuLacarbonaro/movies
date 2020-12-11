@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 10px;
+  padding: 20px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+
+  &__black {
+    background-color: #111;
+  }
+
+  &__logo {
+    width: 300px;
+    position: fixed;
+    left: 20px;
+    height: 20px;
+
+    color: red;
+    font-size: 1em;
+  }
+}
